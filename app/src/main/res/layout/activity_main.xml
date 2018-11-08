@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LinearLayout"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/Im_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+        <TextView
+            android:id="@+id/Text_1"
+            android:text="A Te választásod"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"
+            />
+
+        <ImageView
+            android:id="@+id/Im_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+        <TextView
+            android:id="@+id/Text_2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="A gép választása"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            />
+
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/eredmeny"
+            android:text="Eredmény: Ember:0 Computer:0"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp"
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/LinearLayout2"
+        android:layout_below="@+id/LinearLayout"
+        android:gravity="center"
+        >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button_ko"
+        android:text="KŐ"
+        android:textSize="15dp"
+          />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button_papir"
+        android:text="PAPIR"
+        android:textSize="15dp"
+           />
+
+    <Button
+        android:id="@+id/Button_ollo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OLLÓ"
+        android:textSize="15dp"
+        />
+    </LinearLayout>
+</RelativeLayout>
